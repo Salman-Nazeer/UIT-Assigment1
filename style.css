@@ -125,7 +125,7 @@ body {
   height: 70px;
   margin: auto;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   margin-top: 15px;
   position: relative;
 }
@@ -146,6 +146,16 @@ body {
 .agency {
   color: #ffffff !important;
   background-color: #002a96 !important;
+}
+
+/* Hover effect */
+.service:hover {
+  color: #ffffff;
+  background-color: #127a00;
+}
+
+.agency:hover {
+  background-color: #000f56 !important;
 }
 
 .polygone {

@@ -80,14 +80,19 @@ body {
 }
 
 
-.section{
-  width: 1200px;
+/* SECTION */
+.section {
+  width: 100%; /* Set to 100% to ensure responsiveness */
+  max-width: 1200px; /* Maintain a maximum width for larger screens */
   margin: 50px auto;
+  padding: 0 15px; /* Add padding for smaller screens */
 }
 
-.talk-page{
+.talk-page {
   padding: 5px;
+  text-align: center; /* Center-align text for smaller screens */
 }
+
 .talk-heading{
   color: #169e00;
   font-size: 64px;

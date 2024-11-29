@@ -62,7 +62,7 @@ body {
   text-decoration: none;
 }
 
-/* section 1 */
+/* HERO SECTION */
 .about-us {
   background-color: #169e00;
   min-height: 474px;
@@ -80,33 +80,47 @@ body {
 
 /* Section 1 */
 .section-1 {
-  /* border: 1px solid red; */
-  width: 1300px;
+  width: 100%;
+  max-width: 1300px;
   margin: 40px auto;
   text-align: center;
+  padding: 0 20px;
 }
+
 .team {
   color: #169e00;
   font-size: 96px;
   font-weight: 700;
   line-height: 117px;
+  margin-bottom: 40px;
 }
+
 .team-member {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
   flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
 }
+
 .member {
-  width: 423px;
-  height: 517px;
+  width: 400px;
+  height: auto;
+  margin-bottom: 20px;
 }
+
+.member img {
+  width: 100%;
+  border-radius: 10px;
+}
+
 .member-name {
   color: #169e00;
   font-size: 40px;
   font-weight: 700;
   line-height: 48px;
+  margin-top: 10px;
 }
+
 .member-position {
   color: #a3a3a3;
   font-size: 24px;
